@@ -1,0 +1,517 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 0,
+        "Name": "1Barkhausen-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Barkhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72369,
+          51.02678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 1,
+        "Name": "1Georg-Schumann-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Georg-Schumann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72271,
+          51.029014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 2,
+        "Name": "1Georg-Schumann-Str7a.gltf",
+        "z": 0,
+        "NameBuilding": "Georg-Schumann-Str7a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72311,
+          51.02767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 3,
+        "Name": "1Huelsse-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Huelsse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7238,
+          51.02905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4,
+        "Name": "Merkel-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Merkel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72452,
+          51.02795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 5,
+        "Name": "1Tillich-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Tillich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72417,
+          51.02944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 6,
+        "Name": "1Von-Mises-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Von-Mises"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72287,
+          51.02806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 7,
+        "Name": "VVT-Halle.gltf",
+        "z": 0,
+        "NameBuilding": "VVT-Halle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72381,
+          51.02747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 8,
+        "Name": "Berndt-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Berndt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72529,
+          51.02856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 9,
+        "Name": "Beyer-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Beyer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72921,
+          51.02973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 10,
+        "Name": "Binder-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Binder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72670,
+          51.02746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 11,
+        "Name": "Chemie.gltf",
+        "z": 0,
+        "NameBuilding": "Chemie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73014,
+          51.0279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 12,
+        "Name": "Fritz-Foester-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Fritz-Foester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72859,
+          51.0276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 13,
+        "Name": "Gerhart-Potthoff-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Gerhart-Potthoff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72847,
+          51.03074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 14,
+        "Name": "Goerges-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Goerges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72558,
+          51.02785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 15,
+        "Name": "hoersaalzentrum.gltf",
+        "z": 0,
+        "NameBuilding": "Hoersaalzentrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72999,
+          51.02878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 16,
+        "Name": "Jante-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Jante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72772,
+          51.02947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 17,
+        "Name": "Koenig-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Koenig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72901,
+          51.02821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 18,
+        "Name": "Kutzbach-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Kutzbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72599,
+          51.02858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 19,
+        "Name": "Mollier-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Mollier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72673,
+          51.02938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 20,
+        "Name": "Mueller-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Mueller"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.728,
+          51.02814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 21,
+        "Name": "Neuffer-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Neuffer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72967,
+          51.02931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 22,
+        "Name": "Sachsenber-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Sachsenber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72591,
+          51.02876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 23,
+        "Name": "Technische_Leitzentrale.gltf",
+        "z": 0,
+        "NameBuilding": "Technische Leitzentrale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72697,
+          51.02815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 24,
+        "Name": "Textilmaschinenhalle.gltf",
+        "z": 0,
+        "NameBuilding": "Textilmaschinenhalle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.728,
+          51.02924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 25,
+        "Name": "Toepler-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Toepler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72579,
+          51.02746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 26,
+        "Name": "Verwaltungsgebaeude_1.gltf",
+        "z": 0,
+        "NameBuilding": "Verwaltungsgebaeude 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.728,
+          51.02893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 27,
+        "Name": "Verwaltungsgebaeude_2.gltf",
+        "z": 0,
+        "NameBuilding": "Verwaltungsgebaeude 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72821,
+          51.02862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 28,
+        "Name": "Walter-Frenzel-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Walter-Frenzel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72605,
+          51.02911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 29,
+        "Name": "Walther-Hempel-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Walther-Hempel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73035,
+          51.02743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 30,
+        "Name": "Walther-Pauer-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Walther-Pauer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72692,
+          51.02858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 31,
+        "Name": "Zeuner-Bau.gltf",
+        "z": 0,
+        "NameBuilding": "Zeuner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72564,
+          51.02944
+        ]
+      }
+    }
+  ]
+}

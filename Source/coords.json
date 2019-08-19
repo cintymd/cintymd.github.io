@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 0,
+        "Name": "Barkhausen-Bau",
+        "z": -10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72369,
+          51.02678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 1,
+        "Name": "Georg-Schumann-Bau",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72266,
+          51.02898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 2,
+        "Name": "Georg-Schumann-Str7a",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72318,
+          51.02768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 3,
+        "Name": "Huelsse-Bau",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72378,
+          51.02903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4,
+        "Name": "Merkel-Bau",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72456,
+          51.02792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 5,
+        "Name": "Tillich-Bau",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.724197,
+          51.02944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 6,
+        "Name": "Von-Mises-Bau",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72297,
+          51.02806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 7,
+        "Name": "VVT-Halle",
+        "z": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72381,
+          51.02745
+        ]
+      }
+    }
+  ]
+}

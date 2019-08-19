@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cesiumjs.org/releases/1.57/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesiumjs.org/releases/1.57/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" media="screen">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+</head>
+
+<body>
+
+    <div id="cesiumContainer"></div>
+
+    <!-- Some input elements for our app. -->
+    <div class="sidenav" id="menu">
+        <h1 style="cursor:pointer" onclick="openNav()">&#9776; menu</h1>
+    </div>
+
+    <div class="backdrop" id="toolbar">
+        <table>
+            <tbody data-bind="foreach: layers">
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <img class="TUD" src="./Source/Images/TU_Dresden_Logo_weiss.png" alt="TUDresden" width="150" height="40">
+                <h2>Adaptive Textures</h2>
+                <p><strong>Daytime <br></strong></p>
+
+                <div class="nowrap">
+                    <label for="dayMode">Day
+                        <input id="dayMode" name="source" type="radio" checked />
+                        <span class="radious"></span>
+                    </label>
+
+                </div>
+                <div class="nowrap">
+                    <label for="nightMode">Night
+                        <input id="nightMode" name="source" type="radio" />
+                        <span class="radious"></span>
+                    </label>
+                </div>
+                <br>
+
+                <p><strong>Additional Features</strong></p>
+                <div class="nowrap">
+
+                    <label for="trees">Trees
+                        <input id="trees" type="checkbox" checked />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="nowrap">
+
+                    <label for="lights">Street Lights
+                        <input id="lights" type="checkbox" checked />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="nowrap">
+
+                    <label for="shadows">Shadows
+                        <input id="shadows" type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="nowrap">
+
+                    <label for="wireframe">Wireframe
+                        <input id="wireframe" type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <br>
+                <p><strong>Textures</strong></p>
+                <td class="nowrap">
+                    <select data-bind="visible: $parent.isSelectableLayer($data), options: $parent.baseLayers, optionsText: 'name', value: $parent.selectedLayer"></select>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="controlPanel">
+        <h5>Change the time: <span id="timeLabel"></span></h5>
+        <div>
+            <button type="button" class="cesium-button" id="hourMinus">-1 hour</button>
+            <button type="button" class="cesium-button" id="hourPlus">+1 hour</button>
+        </div>
+    </div>
+
+    <div id="loadingIndicator" class="cover">
+        <div id="loadingIcon" class="loadingIndicator"></div>
+    </div>
+
+    <script src="Source/App.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("toolbar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("toolbar").style.width = "0";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
