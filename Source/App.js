@@ -145,75 +145,6 @@
 
         });
     }
-/*
-    // HTML overlay for showing feature name on mouseover
-    var nameOverlay = document.createElement('div');
-    viewer.container.appendChild(nameOverlay);
-    nameOverlay.className = 'backdrop';
-    nameOverlay.style.display = 'none';
-    nameOverlay.style.position = 'absolute';
-    nameOverlay.style.bottom = '0';
-    nameOverlay.style.left = '0';
-    nameOverlay.style['pointer-events'] = 'none';
-    nameOverlay.style.padding = '4px';
-    nameOverlay.style.backgroundColor = 'black';
-
-    // Information about the currently selected feature
-    var selected = {
-        feature: undefined,
-        originalColor: new Cesium.Color()
-    };
-
-    // An entity object which will hold info about the currently selected feature for infobox display
-    var selectedEntity = new Cesium.Entity();
-
-    // Get default left click handler for when a feature is not picked on left click
-    var clickHandler = viewer.screenSpaceEventHandler.getInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
-
-    // Silhouettes are supported
-    var silhouetteBlue = Cesium.PostProcessStageLibrary.createEdgeDetectionStage();
-    silhouetteBlue.uniforms.color = Cesium.Color.BLUE;
-    silhouetteBlue.uniforms.length = 0.01;
-    silhouetteBlue.selected = [];
-
-    var silhouetteGreen = Cesium.PostProcessStageLibrary.createEdgeDetectionStage();
-    silhouetteGreen.uniforms.color = Cesium.Color.LIME;
-    silhouetteGreen.uniforms.length = 0.01;
-    silhouetteGreen.selected = [];
-
-    viewer.scene.postProcessStages.add(Cesium.PostProcessStageLibrary.createSilhouetteStage([silhouetteBlue, silhouetteGreen]));
-
-    // Silhouette a feature blue on hover.
-    viewer.screenSpaceEventHandler.setInputAction(function onMouseMove(movement) {
-        // If a feature was previously highlighted, undo the highlight
-        silhouetteBlue.selected = [];
-
-        // Pick a new feature
-        var pickedFeature = viewer.scene.pick(movement.endPosition);
-        if (!Cesium.defined(pickedFeature)) {
-            nameOverlay.style.display = 'none';
-            return;
-        }
-
-        // A feature was picked, so show it's overlay content
-        nameOverlay.style.display = 'block';
-        nameOverlay.style.bottom = viewer.canvas.clientHeight - movement.endPosition.y + 'px';
-        nameOverlay.style.left = movement.endPosition.x + 'px';
-        var name = 'example' //pickedFeature.getProperty('name');
-        if (!Cesium.defined(name)) {
-            name = pickedFeature.getProperty('id');
-        }
-        nameOverlay.textContent = name;
-
-    }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);*/
-
-    /*
-    if (!Cesium.PostProcessStageLibrary.isSilhouetteSupported(viewer.scene)) {
-    console.log('This browser does not support the silhouette post process.');
-}
-    
-    var stages = viewer.scene.postProcessStages;
-    var silhouette = stages.add(Cesium.PostProcessStageLibrary.createSilhouetteStage());*/
 
     var lightPromise = Cesium.GeoJsonDataSource.load('./Source/streetlamps.geojson');
     var lightInstances = [];
@@ -261,7 +192,7 @@
     //////////////////////////////////////////////////////////////////////////
 
 
-    // // Create all the base layers that this example will support (https://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Imagery%2520Layers%2520Manipulation.html)
+    // // Create all the base layers 
     var imageryLayers = viewer.imageryLayers;
 
     var viewModel = {
@@ -366,7 +297,7 @@
         baseLayer.alpha = alpha;
         updateLayerList();
 
-        //Update geometries
+        //Update aspect facades
         textureFolder = baseLayer.name;
         createModel(textureFolder);
         createTreeModel(showTree);
@@ -396,8 +327,6 @@
         elapsed -= (hours * 3600);
         var minutes = Math.floor(elapsed / 60);
         elapsed -= (minutes * 60);
-        //timeLabel.textContent = hours + ' hr ' + minutes + ' min ' +
-         //   elapsed.toFixed(1) + ' sec';
     });
 
     // Button click callbacks are free to allocate memory.
